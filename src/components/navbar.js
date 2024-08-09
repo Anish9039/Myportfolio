@@ -1,6 +1,8 @@
 import React, { useState }  from "react";
 import {FaBars,FaTimes} from "react-icons/fa";
 
+
+
 const NavBar = () => { 
 
     const [nav , setNav] = useState(false);
@@ -31,7 +33,7 @@ const links = [
 
      <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
         <div>
-            <h1 className="text-5xl font-italic font-italic ml-2">Anish </h1>
+            <h1 className="text-5xl font-italic ml-2">Anish </h1>
         </div>
 
 

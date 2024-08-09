@@ -1,6 +1,6 @@
 import React from 'react'
 import Anish from '../assets/portfolio/Anish.jpg';
-import { FaArrowAltCircleRight } from "react-icons/fa";
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 
 
 
@@ -17,11 +17,11 @@ const home = () => {
             im  front end developer with the experince of 2 years
         </p>
         <div>
-            <button className="text-white w-fit px-6 py-4 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 crusor-pointer">
+            <button className="group text-white w-fit px-6 py-4 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                 portfolio
 
-                <span>
-                <FaArrowAltCircleRight />
+                <span className='group-hover:rotate-90 duration-300'>
+                <MdOutlineKeyboardArrowRight size={25} className='ml-3' />
                 </span>
                
 
