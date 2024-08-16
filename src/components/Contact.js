@@ -9,29 +9,29 @@ const Contact = () => {
                 <p className='py-6' >Submmit the form to get in touch with me</p>
             </div>
           <div className='flex justify-center items-center'>
-            <form action='' className='flex flex-col w-full md:1-1/2'>
+            <form action='https://getform.io/f/aolgrzeb' method="POST" className='flex flex-col w-full md:1-1/2'>
             <input 
             name='text'
             type='text'
             placeholder='enter your name'
-            className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
+            className='  p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
             />
 
         <input 
             name='email'
             type='text'
             placeholder='enter your email'
-            className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
+            className=' my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
             />
 
         <textarea 
             name='message'
             row = '10'
             placeholder='Description'
-            className=' my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
+            className='  p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
         ></textarea>
 
-            <button type='button' className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex item-center rounded-md hover:scale-110 duration-300' >Submmit</button>
+            <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex item-center rounded-md hover:scale-110 duration-300' >Submmit</button>
             </form>
           </div>
 
