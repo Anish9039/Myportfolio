@@ -1,7 +1,6 @@
 import React from 'react';
 import html from '../assets/portfolio/html.png';
 import javscript from '../assets/portfolio/javascript.png';
-import next from '../assets/portfolio/next.png';
 import react from '../assets/portfolio/react.png';
 import tailwind from '../assets/portfolio/tailwind.png';
 import github from '../assets/portfolio/github.webp';
