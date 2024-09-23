@@ -11,8 +11,8 @@ const Portfolio = () => {
   const portfolio = [
     {
       id:1,
-      src:er,
-      href:"example.com" 
+      src:Ecommerce,
+      href:"https://github.com/Anish9039/Ecommerce" 
     },
     {
       id:2,
